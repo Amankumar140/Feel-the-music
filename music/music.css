@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#akc196 {
+    color: rgb(209, 209, 129);
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    height: 20px;       
+    width: 60px;      
+    margin-left: 90%;
+    transition: all;
+    transition: 20ms;
+
+}
+
+.main {
+    background-color: aqua;
+    background-image: url(back2.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.main2 {
+    background-image: url(back3.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.headline {
+    padding: 5px;
+    /* text-align: center; */
+    font-size: 50px;
+    color: rgb(237, 119, 119);
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: cursive;
+    font-style: italic;
+    transition: all;
+    position: relative;
+    transition-duration: 20ms;
+    animation: headline 5s ease-in-out 1ms infinite alternate;
+
+}
+
+.headline:hover {
+    color: #c1bdb3
+}
+
+@keyframes headline {
+    from {
+        left: 20%;
+    }
+
+    to {
+        left: 50%;
+    }
+}
+
+.content:hover {
+    color: aqua;
+}
+
+h3 {
+    padding: 5px;
+    padding-top: 25px;
+    padding-left: 10px;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(116, 223, 145);
+}
+
+.content {
+    padding: 5px;
+    padding-top: 10px;
+    padding-left: 20px;
+    color: #cbcdb0d0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.subheadings {
+    padding: 5px;
+    padding-top: 5px;
+    padding-left: 15px;
+    color: #e1a8d4fb;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.listen_music {
+    padding: 5px;
+    padding-left: 25px;
+    color: #09ef14e1;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.music_link {
+
+
+    width: 100px;
+    /* Width of the circular box */
+    height: 100px;
+    /* Height of the circular box */
+    border-radius: 50%;
+    /* Makes the box circular */
+    overflow: hidden;
+    /* Ensures the image does not overflow the circular box */
+
+    position: relative;
+    animation: aman 3s ease-out 0.1ms infinite;
+    
+
+}
+ 
+
+.music_design {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.song_box {
+    padding-top: 10px; 
+     
+
+}
+
+.song_name {
+    color: rgb(93, 234, 234);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    
+}
+.song_name :hover
+{
+     
+    transform: translate(-5px);
+    
+
+    
+}
+
+.music_link img {
+    width: 130%;
+    height: auto;
+}
+
+@keyframes aman {
+    from {
+        transform: rotateX(0deg);
+
+
+    }
+
+    to {
+        transform: rotate(360deg);
+
+    }
+}
